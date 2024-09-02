@@ -42,21 +42,7 @@ Route::get('/homePage',[HomeController::class,'HomePage']);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Web Route
 
 // Brand List
 Route::get('/BrandList', [BrandController::class, 'BrandList']);

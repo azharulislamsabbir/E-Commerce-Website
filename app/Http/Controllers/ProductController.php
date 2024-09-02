@@ -1,15 +1,15 @@
 <?php
 namespace App\Http\Controllers;
-use App\Helper\ResponseHelper;
-use App\Models\CustomerProfile;
 use App\Models\Product;
 use App\Models\ProductCart;
-use App\Models\ProductDetails;
+use App\Models\ProductWish;
+use Illuminate\Http\Request;
 use App\Models\ProductReview;
 use App\Models\ProductSlider;
-use App\Models\ProductWish;
+use App\Helper\ResponseHelper;
+use App\Models\ProductDetails;
+use App\Models\CustomerProfile;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
