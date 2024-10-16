@@ -213,7 +213,8 @@ Popular();
         })
     }
 
-    rending();
+
+    Trending();
 
     async function Trending(){
         let res=await axios.get("/ListProductByRemark/trending");
